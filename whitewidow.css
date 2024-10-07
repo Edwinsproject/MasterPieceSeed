@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
+
+@font-face {
+    font-family: 'Booter - Zero Zero';
+    src: url('Fonts/Booter - Zero Zero.woff') format('woff'),
+         url('Fonts/Booter - Zero Zero.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+}
+
+* {
+ box-sizing: border-box;
+ font-family: Raleway;
+ color: #484646;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(0, 0, 0.3);
+}
+
+
+.main-nav {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: light;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+
+.main-header {
+    background-color: rgba(0,0,0,.6); /*background for header with trasparency to make it lighter*/
+    background-image: url('images/banner.jpg');
+    background-blend-mode: multiply;
+    background-size: cover; /*covers the header and resizes with page size*/
+    padding-bottom: 2px;
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Comforter Brush", cursive;
+    font-weight: normal;
+    color: white;
+}
+
+
+
+.band-name-large {
+    font-size: 5em;
+}
+
+
+.content-section {
+    margin: 1em;
+    display: auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+    }
+    
+
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    color: #000000;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.sec {
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.color {
+    color:black;
+}
+
+.about-band-image {
+    float:left;
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.calm-energy-bar {
+    display: flex;
+    justify-content: space-between; /* Puts space between the two names */
+    align-items: center; /* Aligns names vertically centered */
+    background-color: #ddd; /* Color of the bar */
+    width: 300px;
+    height: 1px; /* Height of the bar */
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .low-high-thc {
+    display: flex;
+    justify-content: space-between; /* Puts space between the two names */
+    align-items: center; /* Aligns names vertically centered */
+    background-color: #ddd; /* Color of the bar */
+    width: 300px;
+    height: 1px; /* Height of the bar */
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+
+  .name-left, .name-right {
+    position: absolute;
+    top: -20px; /* Moves the names on top of the bar */
+  }
+  
+  .name-left {
+    left: 10px; /* Places name on the left */
+  }
+  
+  .name-right {
+    right: 10px; /* Places name on the right */
+  }  
+
+  .filled-bar {
+    position: absolute;
+    top: 0; /* Aligns with the top of the bar */
+    left: 0; /* Aligns with the left edge of the bar */
+    height: 100%; /* Fills the entire height of the bar */
+    width: 75%; /* Fills half of the bar */
+    border-radius: 5px;
+    background-color: #555; /* Darker color for the filled portion */
+  }
+
+  .filled-bars {
+    position: absolute;
+    top: 0; /* Aligns with the top of the bar */
+    left: 0; /* Aligns with the left edge of the bar */
+    height: 100%; /* Fills the entire height of the bar */
+    width: 50%; /* Fills half of the bar */
+    border-radius: 5px;
+    background-color: #555; /* Darker color for the filled portion */
+  }
+
+/*footer elements*/
+
+.main-footer{
+    background-color: black;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
