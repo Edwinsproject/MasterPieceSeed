@@ -55,7 +55,7 @@ padding: 0 5%;
 
 .main-header {
 background-color: rgba(0,0,0,.6); /*background for header with trasparency to make it lighter*/
-background-image: url('images/banner.jpg');
+background-image: url('banner.jpg');
 background-blend-mode: multiply;
 background-size: cover; /*covers the header and resizes with page size*/
 padding-bottom: 2px;
